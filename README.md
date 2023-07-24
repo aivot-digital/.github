@@ -18,10 +18,17 @@ Overview over the community health files used by us and how they find their way 
 | [PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md) | Automatically via .github repository (unless specifically overwritten by repository) | No customizations needed | The issue templates in this directory follow the respective templates defined in Clickup.       |
 | [SECURITY.md](./docs/SECURITY.md)                              | Automatically via .github repository (unless specifically overwritten by repository) | No customizations needed | Not based on a template                                                                         |
 
-**community health files that aren't used**
-*Discussion category forms*: Currently we don't use the discussions feature of GitHub.
-*FUNDING.yml*: Since we follow the principle of Fair-Code, we reserve the right of commercialization. Therefore we refrain from donations.
-*SUPPORT.md*: We use the [config.yml](./.github/ISSUE_TEMPLATE/config.yml) to configure the support option.
+## Community health files that aren't used
+
+**Discussion category forms:** Currently we don't use the discussions feature of GitHub.
+
+**FUNDING.yml:** Since we follow the principle of Fair-Code, we reserve the right of commercialization. Therefore we refrain from donations.
+
+**SUPPORT.md:** We use the [config.yml](./.github/ISSUE_TEMPLATE/config.yml) to configure the support option.
+
+
+
+
 
 # Miscellaneous
 Overview over miscellaneous files for licensing, information etc. commonly used in our projects.
