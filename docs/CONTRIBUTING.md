@@ -3,8 +3,8 @@
 [roadmap](https://aivot.de/roadmaps) of the respective project.
 - We only accept Pull Requests for existing issues. Existing issues have been properly discussed and, if not closed,
 deemed valuable for the project.
-- By contributing your code to a projects GitHub repository, you agree to license your contribution under the
-[MIT license](https://opensource.org/licenses/MIT).
+- By contributing your code to a projects GitHub repository, you agree to license your contribution in accordance with our [Contributor License Agreement](./CONTRIBUTOR_LICENSE_AGREEMENT.md).
+This is necessary in order for us to avoid having licensing problems later on. We used the most simple one that exists. It is from [Indie Open Source](https://indieopensource.com/forms/cla) which uses plain English and is literally only a few lines long.
 
 ## Resources 📚
 This project contains several resources to help you understand the software architecture, coding style as well as the
@@ -16,9 +16,9 @@ Please refer to these documents if you have any questions regarding these topics
 | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md) | Code of conduct for collaboration in this project and when collaborating in general with Aivot and its community |
 | [CONTRIBUTING](./CONTRIBUTING.md)       | How to contribute to a project (this document 🤯)                                                                |
 | [SECURITY](./SECURITY.md)               | Patch cycles and how to report vulnerabilities                                                                   |
-| [STYLEGUIDE](./STYLEGUIDE.md)           | Coding styles and the truth about tabs vs. spaces                                                                |
-| [README](./README.md)                   | Prerequisites, setup and configuration of the project                                                            |
-| [Wiki](../../wiki)                      | Software architecture, APIs and anything else needed for development                                             |
+| *STYLEGUIDE*                            | Coding styles and the truth about tabs vs. spaces                                                                |
+| *README*                                | Prerequisites, setup and configuration of the project                                                            |
+| *Wiki*                                  | Software architecture, APIs and anything else needed for development                                             |
 
 Note: If you have questions regarding the *user view* (e.g. how to use feature XY), please refer to our user documentation
 for the respective project by choosing the project on our [documentation overview](https://aivot.de/docs).
@@ -31,13 +31,13 @@ We follow a workflow so that everything always remains under control and optimal
 For this, we rely heavily on the two systems [Github Issues](https://github.com/features/issues)
 and [Clickup](https://clickup.com).
 
-| Step | Description                                                                                                                                                                                | Responsibility     | Remarks                                                                               |
-|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------|
-| 1    | A new issue on GitHub is created (if there is none already).                                                                                                                               | Contributor, Aivot | -                                                                                     |
-| 2    | A new branch is created. All changes are going to be committed to this branch.                                                                                                             | Contributor, Aivot | See [branching](./CONTRIBUTING.md#branching) for more information about our branching |
-| 3    | A New Pull Request is created. The Pull Request references the solved issue.                                                                                                               | Contributor, Aivot | Use the Pull Request template provided by the repository                              |
-| 4    | Aivot is monitoring for Pull Requests. The newly created Pull Request is reviewed by Aivot. We will either merge the Pull Request, request changes to it, or close it with an explanation. | Aivot              | -                                                                                     | 
-| 5    | In case the Pull Request is accepted by Aivot: The branch is squashed and rebased by us. A changelog entry is generated as well as a reference to the original contributor.                | Aivot              | -                                                                                     |
+| Step | Description                                                                                                                                                                                | Responsibility     | Remarks                                                                                |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------------------------------------------------------------------|
+| 1    | A new issue on GitHub is created (if there is none already).                                                                                                                               | Contributor, Aivot | -                                                                                      |
+| 2    | A new branch is created. All changes are going to be committed to this branch.                                                                                                             | Contributor, Aivot | See [branching](./CONTRIBUTING.md#branching-) for more information about our branching |
+| 3    | A New Pull Request is created. The Pull Request references the solved issue.                                                                                                               | Contributor, Aivot | Use the Pull Request template provided by the repository                               |
+| 4    | Aivot is monitoring for Pull Requests. The newly created Pull Request is reviewed by Aivot. We will either merge the Pull Request, request changes to it, or close it with an explanation. | Aivot              | -                                                                                      |
+| 5    | In case the Pull Request is accepted by Aivot: The branch is squashed and rebased by us. A changelog entry is generated as well as a reference to the original contributor.                | Aivot              | -                                                                                      |
 
 ## Company facing vs. community facing
 The two systems in use, Github Issues and Clickup, each have a very specific purpose.  
@@ -83,7 +83,7 @@ on GitHub ourselves. Our internal development also follows the [contributing gui
 
 
 # Environment 🌍
-Please refer to the [README](./README.md#Setup) for detailed instructions on setting up this project as well as
+Please refer to the *README* for detailed instructions on setting up this project as well as
 developing for it.
 
 
@@ -117,7 +117,7 @@ This leads to more readable messages that are easy to follow when looking throug
 - Use the imperative mood in the body
 
 ## Merge vs. Rebase
-We use a rebase workflow (see trunk based development in the [Branching](./CONTRIBUTING.md#Branching) section).
+We use a rebase workflow (see trunk based development in the [Branching](./CONTRIBUTING.md#branching-) section).
 That means that every commit on its own should be a clear, functional, and stable change.
 This means when you’re building a new feature, you should try to pare it down into functional steps,
 and when that’s not reasonable, the end patch should be a single commit. Those commits should be squashed, and the
@@ -131,7 +131,7 @@ The GitHub UI exposes a “Rebase and Merge” option, which, if your commits ar
 is a great way to bring your change into the codebase.
 
 Note: This is only relevant for us at Aivot since we are the ones rebasing
-(see [General Workflow](./CONTRIBUTING.md#General-Workflow)).
+(see [General Workflow](./CONTRIBUTING.md#general-workflow-)).
 
 ### Squashing
 When you are squashing your branch, it’s important to make sure you update the commit message.
@@ -140,7 +140,7 @@ and **does not follow the commit message guidelines**. Make sure you follow the 
 a commit message that is understandable within the context of a changelog.
 
 Note: This is only relevant for us at Aivot since we are the ones squashing
-(see [General Workflow](./CONTRIBUTING.md#General-Workflow)).
+(see [General Workflow](./CONTRIBUTING.md#general-workflow-)).
 
 ## Commit Message Format
 Each commit message consists of a **header**, a **body**, and a **footer**.  
@@ -157,7 +157,7 @@ A short explanation on the different building blocks of a commit message:
 | Building block | Mandatory? | Explanation                                                                                                                                         |
 |----------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | yes        | Signals that the change belongs to a defined category. See [Type](./CONTRIBUTING.md#Type) for types used by us.                                     |
-| Scope          | no         | The name of the core component affected by the change as perceived by the user. See [Scope](../../wiki/scope) in wiki.                              |
+| Scope          | no         | The name of the core component affected by the change as perceived by the user. See *Scope* in wiki.                                                |
 | Subject        | yes        | A succinct description of the change in imperative mood of what is going to be changed by the commit if merged.                                     |
 | Body           | yes        | Explanation of what has been done and why it has been done in imperative mood.                                                                      |
 | Footer         | no         | Should contain any information about Breaking Changes. If relevant contains a closing reference to a GitHub issue as well as a Clickup task if any. |
@@ -183,7 +183,7 @@ In the body it should say: `This reverts commit [HASH].`, where the [HASH] is th
 ### Type
 | Type  | Description                                                                                      |
 |-------|--------------------------------------------------------------------------------------------------|
-| build | 	Changes that affect the build system or external dependencies (example scopes: webpack, npm).   |
+| build | Changes that affect the build system or external dependencies (example scopes: webpack, npm).    |
 | ci    | Changes to our CI configuration files and scripts (example scopes: github).                      |
 | docs  | Documentation only changes.                                                                      |
 | feat  | A new feature.                                                                                   |
@@ -196,7 +196,7 @@ In the body it should say: `This reverts commit [HASH].`, where the [HASH] is th
 The scope should be the name of the core component affected (as perceived by the person reading the changelog generated
 from commit messages). This means it should be the system impacted, not the literal file changed. For example, if the
 code primarily affects settings, you’d use the settings scope, even if the changes are in utility files or db schema.  
-Since scopes are highly project specific, please refer to the [scope section](../../wiki/scope) within the projects wiki.
+Since scopes are highly project specific, please refer to the *scope section* within the projects wiki.
 
 
 
@@ -219,7 +219,7 @@ function of teaching engineers about the languages, frameworks and technologies 
 that is about the changes being made.
 
 Note: This is only relevant for us at Aivot since we are the ones reviewing code
-(see [General Workflow](./CONTRIBUTING.md#General-Workflow)).
+(see [General Workflow](./CONTRIBUTING.md#general-workflow-)).
 
 ## Why Pull Requests
 Our open source projects are maintained via GitHub and we want to ensure that the barrier to entry for external
@@ -269,7 +269,7 @@ method name `find` communicates intent. Suggesting these types of uncontroversia
 Reviewers have to be careful though – it’s easy to go down a rabbit hole of re-writing code to be as small as possible,
 and in the end winding up with something ultimately more complicated. Reviewers have to be pragmatic and strive to reach
 a good balance.  
-See also: [Code reviews are not for getting it perfect](./CONTRIBUTING.md#Getting-it-perfect) below.
+See also: [Code reviews are not for getting it perfect](./CONTRIBUTING.md#3-getting-it-perfect) below.
 
 ### 4. Enforcing coding standards
 As much as possible, we use automation to enforce code style and test coverage. But there are exceptions that cannot
@@ -382,7 +382,7 @@ addressed, ideally with a reference to the commit that addressed it.
 
 ## Guidelines for Reviewers
 Note: This is only relevant for us at Aivot since we are the ones reviewing code
-(see [General Workflow](./CONTRIBUTING.md#General-Workflow)).
+(see [General Workflow](./CONTRIBUTING.md#general-workflow-)).
 ### Be polite and empathetic
 Avoid accusatory and/or judgmental comments like: “You should have done X”.
 
@@ -407,13 +407,13 @@ to which licenses we allow.
 
 | License                                                                                             | Status     |
 |-----------------------------------------------------------------------------------------------------|------------|
-| [GNU Lesser General Public License version 3 (LGPL)](https://opensource.org/licenses/LGPL-3.0)      | ⚠️ Caution |
-| [Mozilla Public License 2.0 (MPL)](https://opensource.org/licenses/MPL-2.0)                         | ⚠️ Caution |
-| [Apache License Version 2.0 (Apache)](https://opensource.org/licenses/Apache-2.0)                   | ✅ Use      |
-| [MIT](https://opensource.org/licenses/MIT)                                                          | ✅ Use      |
-| [Berkeley Source Distribution License (BSD-2-Clause)](https://opensource.org/licenses/BSD-2-Clause) | ✅ Use      |
-| [Berkeley Source Distribution License (BSD-3-Clause)](https://opensource.org/licenses/BSD-3-Clause) | ✅ Use      |
-| [Unlicense](https://opensource.org/licenses/unlicense)                                              | ✅ Use      |
+| [GNU Lesser General Public License version 3 (LGPL)](https://opensource.org/licenses/LGPL-3.0)      | ⚠️ Caution  |
+| [Mozilla Public License 2.0 (MPL)](https://opensource.org/licenses/MPL-2.0)                         | ⚠️ Caution  |
+| [Apache License Version 2.0 (Apache)](https://opensource.org/licenses/Apache-2.0)                   | ✅ Use     |
+| [MIT](https://opensource.org/licenses/MIT)                                                          | ✅ Use     |
+| [Berkeley Source Distribution License (BSD-2-Clause)](https://opensource.org/licenses/BSD-2-Clause) | ✅ Use     |
+| [Berkeley Source Distribution License (BSD-3-Clause)](https://opensource.org/licenses/BSD-3-Clause) | ✅ Use     |
+| [Unlicense](https://opensource.org/licenses/unlicense)                                              | ✅ Use     |
 
 **We do not allow the use of proprietary licenses under any circumstances.**
 
@@ -422,7 +422,7 @@ A brief explanation of the statuses is given below.
 | Status     | Explanation                                                                                                                                                                                                                                          |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ⚠️ Caution | There are specific requirements. A correct implementation of the license conditions is to be checked by us. Please explain in a comment in the Pull Request why only this package is suitable and no other library with a license of "✅ Use" status. |
-| ✅ Use      | Nothing to consider. Just use it.                                                                                                                                                                                                                    |
+| ✅ Use    | Nothing to consider. Just use it.                                                                                                                                                                                                                     |
 
 ## Automatic license compliance checking
 Implementation is planned...
@@ -443,7 +443,7 @@ The main reason for this is that documentation is only very good if it is consis
 In addition, there are sometimes hands-on demos within the documentation. And we don't expect any external contributor
 to produce them.
 
-Code documentation is stored in the project's [GitHub wiki](../../wiki) so that it is as close to the code as possible.
+Code documentation is stored in the project's *GitHub wiki* so that it is as close to the code as possible.
 
 If you are looking for end user documentation visit our [documentation overview](https://aivot.de/docs) and select
 the respective project.

@@ -1,0 +1,1 @@
+**Please refer to the [general workflow section within the CONTRIBUTING file](./CONTRIBUTING.md#general-workflow-) to get a picture of how we work, which software is being used to maintain the project and the responsibilities.**

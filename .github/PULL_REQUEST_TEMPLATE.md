@@ -19,6 +19,6 @@ See the [Contributing Guidelines](../CONTRIBUTING.md#General-Workflow) for more 
 - [ ] I have followed the [Contributing Guidelines](../CONTRIBUTING.md)
 - [ ] My Pull Request follows the [Guidelines for Submitters of Pull Requests](../CONTRIBUTING.md#Guidelines-for-Submitters)
 - [ ] My commits follow the [Commit Message Guideline](../CONTRIBUTING.md#Commit-Message)
-- [ ] My changes follow the [Styleguide](../STYLEGUIDE.md) of this project
+- [ ] My changes follow the *Styleguide* of this project
 - [ ] My changes build without any errors or warnings
 - [ ] My changes have been formatted and linted
