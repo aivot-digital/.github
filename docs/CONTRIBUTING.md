@@ -3,7 +3,7 @@
 [roadmap](https://aivot.de/roadmaps) of the respective project.
 - We only accept Pull Requests for existing issues. Existing issues have been properly discussed and, if not closed,
 deemed valuable for the project.
-- By contributing your code to a projects GitHub repository, you agree to license your contribution in accordance with our [Contributor License Agreement](./CONTRIBUTOR_LICENSE_AGREEMENT.md).
+- By contributing your code to a projects GitHub repository, you agree to license your contribution in accordance with our [Contributor License Agreement](../templates/CONTRIBUTOR_LICENSE_AGREEMENT.md).
 This is necessary in order for us to avoid having licensing problems later on. We used the most simple one that exists. It is from [Indie Open Source](https://indieopensource.com/forms/cla) which uses plain English and is literally only a few lines long.
 
 ## Resources 📚
