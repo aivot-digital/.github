@@ -6,7 +6,7 @@
 - Stick to the [Guidelines for Submitters of Pull Requests](../docs/CONTRIBUTING.md#Guidelines-for-Submitters) when creating
 a Pull Request.
 - Please note, that all commits will be squashed before merging.
-See the [Contributing Guidelines](../docs/CONTRIBUTING.md#General-Workflow) for more details.
+See the [Contributing Guidelines](../docs/CONTRIBUTING.md#general-workflow-) for more details.
 
 ### ↑ DELETE this line and above **before** submitting ↑
 
@@ -18,7 +18,7 @@ See the [Contributing Guidelines](../docs/CONTRIBUTING.md#General-Workflow) for 
 
 - [ ] I have followed the [Contributing Guidelines](../docs/CONTRIBUTING.md)
 - [ ] My Pull Request follows the [Guidelines for Submitters of Pull Requests](../docs/CONTRIBUTING.md#Guidelines-for-Submitters)
-- [ ] My commits follow the [Commit Message Guideline](../docs/CONTRIBUTING.md#Commit-Message)
+- [ ] My commits follow the [Commit Message Guideline](../docs/CONTRIBUTING.md#commit-message-)
 - [ ] My changes follow the *Styleguide* of this project
 - [ ] My changes build without any errors or warnings
 - [ ] My changes have been formatted and linted
