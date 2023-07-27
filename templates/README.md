@@ -28,9 +28,7 @@
 
 
 # Documentation
-Code documentation is stored in the project's [GitHub wiki](../../wiki) so that it is as close to the code as possible.
-
-If you are looking for end user documentation visit our [documentation overview](https://aivot.de/docs) and select
+If you are looking for code documentation as well as end user documentation visit our [documentation overview](https://aivot.de/docs) and select
 the respective project.
 
 
