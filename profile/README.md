@@ -1,8 +1,6 @@
 # Aivot
 **Open source software for the public sector – empowering digital sovereignty.**
 
-![Aivot Banner](https://aivot.de/assets/banner.png) <!-- Optional: Replace with your actual banner -->
-
 ## Why Aivot matters 💡
 
 * 🛠️ **Open Source by Design** – We build fully open software that is free, transparent, and verifiable.
