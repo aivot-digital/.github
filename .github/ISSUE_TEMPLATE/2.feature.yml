@@ -7,6 +7,8 @@ body:
       value: |
         Please provide a searchable summary of the issue in the title above ☝️.
 
+        Please use English 🇬🇧 if possible — it helps keep issues accessible and searchable for everyone. German 🇩🇪 is fine if you're more comfortable.
+
         Thanks for contributing by creating an issue! ❤️
   - type: checkboxes
     attributes:
