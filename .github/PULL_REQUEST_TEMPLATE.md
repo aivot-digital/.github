@@ -5,8 +5,6 @@
 - Please create an issue **before** creating a Pull Request.
 - Stick to the [Guidelines for Submitters of Pull Requests](../docs/CONTRIBUTING.md#Guidelines-for-Submitters) when creating
 a Pull Request.
-- Please note, that all commits will be squashed before merging.
-See the [Contributing Guidelines](../docs/CONTRIBUTING.md#general-workflow-) for more details.
 
 ### ↑ DELETE this line and above **before** submitting ↑
 
