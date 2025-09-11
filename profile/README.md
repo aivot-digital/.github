@@ -1,7 +1,4 @@
-# Aivot  
-**Digital solutions for sovereign administrations**
-
-## Why Aivot matters 💡
+# Aivot – Digital solutions for sovereign administrations
 
 Aivot stands for digital, sovereign administrations of tomorrow.  
 We develop **open and fair software solutions** that make public administrations independent and make life easier for both employees and citizens.  
